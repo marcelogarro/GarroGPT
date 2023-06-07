@@ -44,7 +44,7 @@ export default function ChatRoom(props) {
     setNewMessage("");
 
     try {
-      const apiKey = "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"; // Substitua pela sua chave de API válida
+      const apiKey = "process.env.API_KEY_CHAT"; // Substitua pela sua chave de API válida do CHAT GPT
 
       const headers = {
         "Content-Type": "application/json",
