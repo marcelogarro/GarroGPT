@@ -7,7 +7,7 @@ require('dotenv').config();
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAGMXmKl182-392va_OUVCdfp6k6DMStx4",
+  apiKey: process.env.API_KEY_FIREBASE,
   authDomain: "chat-trabalho-733ba.firebaseapp.com",
   databaseURL: "https://chat-trabalho-733ba-default-rtdb.firebaseio.com",
   projectId: "chat-trabalho-733ba",
